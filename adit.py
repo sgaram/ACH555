@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 
-aditmadzs = LineClient(authToken='EyVchFhmUETSzb3YiB3c.0V1G+g5uaraAx1arJDqrJa.Qu/xQAowGJsRO4qlkAdVQwLtujgZsWTQO9UEvSFY074=')
+aditmadzs = LineClient(authToken='Ez3atYL4eMhTCfHquQyc.0V1G+g5uaraAx1arJDqrJa.ABvyADw94loTCDOGvJo6UKDz3LKM0OnWr3R4t0u11eM=')
 aditmadzs.log("Auth Token : " + str(aditmadzs.authToken))
 channel = LineChannel(aditmadzs)
 aditmadzs.log("Channel Access Token : " + str(channel.channelAccessToken))
